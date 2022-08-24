@@ -8,5 +8,6 @@ yarn add @fourkord/use-api
 * Using npm
 ```sh
 npm i @fourkord/use-api
+```
 
 ## Usage
