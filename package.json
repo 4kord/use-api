@@ -1,8 +1,9 @@
 {
-  "name": "use-api",
-  "version": "1.0.0",
+  "name": "@fourkord/use-api",
+  "version": "1.1.0",
   "description": "React hook that allows to send api calls and get responses with ease",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
