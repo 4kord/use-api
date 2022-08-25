@@ -1,12 +1,22 @@
 {
-  "name": "@fourkord/use-api",
-  "version": "1.0.4",
-  "type": "module",
-  "description": "React hook that lets you send api calls and get responses with ease",
-  "main": "index.ts",
-  "repository": "https://github.com/4kord/use-api.git",
-  "author": "4kord <57727313+4kord@users.noreply.github.com>",
-  "license": "MIT",
+  "name": "use-api",
+  "version": "1.0.0",
+  "description": "React hook that allows to send api calls and get responses with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4kord/use-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4kord/use-api/issues"
+  },
+  "homepage": "https://github.com/4kord/use-api#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "react": "^18.2.0"
