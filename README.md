@@ -28,10 +28,10 @@ npm i @fourkord/use-api
     onFail: (error) => {
       console.log(error);
     },
-    defaultLoading: false  // optional, If true, setLoading is true by default, not when api call made. defaultLoading = false by default.
+    defaultLoading: false  // optional. If true, setLoading is true by default, not when api call made. defaultLoading = false by default.
   });
 ```
-* Types declaration
+* Using types
 ```ts
   interface IRequest {
     field1: string
