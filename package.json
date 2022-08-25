@@ -1,6 +1,7 @@
 {
   "name": "@fourkord/use-api",
-  "version": "1.0.2",
+  "version": "1.0.4",
+  "type": "module",
   "description": "React hook that lets you send api calls and get responses with ease",
   "main": "index.ts",
   "repository": "https://github.com/4kord/use-api.git",
