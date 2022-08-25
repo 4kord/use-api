@@ -24,7 +24,7 @@ export const useApi = <Request, Response, ErrorResponse>({axiosInstance, method,
       const response = await axiosInstance.request({
         method: method,
         headers: headers,
-        url: urlAddition ? (url[url.length - 1] === "/" ? url + urlAddition : url + "/" + urlAddition) : url,
+        url: urlAddition ? url + urlAddition : url,
         data: data,
         signal: ctrl.signal
       });

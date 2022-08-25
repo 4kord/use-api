@@ -36,7 +36,7 @@ const useApi = ({ axiosInstance, method, url, headers, onSuccess, onFail, defaul
             const response = yield axiosInstance.request({
                 method: method,
                 headers: headers,
-                url: urlAddition ? (url[url.length - 1] === "/" ? url + urlAddition : url + "/" + urlAddition) : url,
+                url: urlAddition ? url + urlAddition : url,
                 data: data,
                 signal: ctrl.signal
             });
