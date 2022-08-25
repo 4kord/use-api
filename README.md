@@ -61,7 +61,7 @@ npm i @fourkord/use-api
   useEffect(async () => {
     await fetch({
       data: {"field1": "value1"}, //                                 optional
-      urlAddition: "1"            // /endpoint + /1 => /endpoint/1,  optional
+      urlAddition: "/1"            // /endpoint + /1 => /endpoint/1,  optional
     });
    }, [fetch]);
 ```
